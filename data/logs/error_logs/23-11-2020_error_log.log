@@ -1,0 +1,33 @@
+[Mon, 23 Nov 2020 12:43:25 +0700] [localhost] [::1] [Notice(8): Array to string conversion] [FILE: /modules/music/admin/del_song.php] [LINE: 22]
+[Mon, 23 Nov 2020 14:12:00 +0700] [localhost] [::1] [Notice(8): Undefined variable: stmt] [FILE: /modules/music/admin/del_song.php] [LINE: 31]
+[Mon, 23 Nov 2020 14:12:00 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to a member function bindParam() on null in C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php:31
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/del_song.php] [LINE: 31]
+[Mon, 23 Nov 2020 15:42:58 +0700] [localhost] [::1] [Notice(8): Undefined variable: stmt] [FILE: /modules/music/admin/del_song.php] [LINE: 28]
+[Mon, 23 Nov 2020 15:42:58 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to a member function bindParam() on null in C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php:28
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/del_song.php] [LINE: 28]
+[Mon, 23 Nov 2020 15:44:16 +0700] [localhost] [::1] [Notice(8): Undefined index: cat_error] [FILE: /modules/music/admin/cat.php] [LINE: 26]
+[Mon, 23 Nov 2020 15:48:33 +0700] [localhost] [::1] [Notice(8): Undefined variable: stmt] [FILE: /modules/music/admin/del_song.php] [LINE: 26]
+[Mon, 23 Nov 2020 15:48:33 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to a member function bindParam() on null in C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php:26
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/del_song.php] [LINE: 26]
+[Mon, 23 Nov 2020 16:15:15 +0700] [localhost] [::1] [Notice(8): Undefined index: list_singer] [FILE: /modules/music/admin/list-singer.php] [LINE: 16]
+[Mon, 23 Nov 2020 16:15:16 +0700] [localhost] [::1] [Notice(8): Undefined index: singer_error] [FILE: /modules/music/admin/singer-content.php] [LINE: 27]
+[Mon, 23 Nov 2020 16:25:53 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method XTemplate::asssign() in C:\xampp\htdocs\nukeviet\modules\music\admin\cat.php:55
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/cat.php] [LINE: 55]
+[Mon, 23 Nov 2020 16:26:34 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method XTemplate::asssign() in C:\xampp\htdocs\nukeviet\modules\music\admin\cat.php:54
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/cat.php] [LINE: 54]
+[Mon, 23 Nov 2020 16:28:39 +0700] [localhost] [::1] [Notice(8): Undefined variable: is] [FILE: /modules/music/admin/cat.php] [LINE: 61]

@@ -1,0 +1,28 @@
+[Sun, 22 Nov 2020 21:38:17 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:507
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(507): PDO->exec('DELETE FROMnv4_...')
+#1 C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php(29): NukeViet\Core\Database->exec('DELETE FROMnv4_...')
+#2 C:\xampp\htdocs\nukeviet\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 507]
+[Sun, 22 Nov 2020 21:38:20 +0700] [localhost] [::1] [Notice(8): Undefined index: list_singer] [FILE: /modules/music/admin/list-singer.php] [LINE: 16]
+[Sun, 22 Nov 2020 21:38:21 +0700] [localhost] [::1] [Notice(8): Undefined index: singer_error] [FILE: /modules/music/admin/singer-content.php] [LINE: 27]
+[Sun, 22 Nov 2020 21:38:22 +0700] [localhost] [::1] [Notice(8): Undefined index: cat_error] [FILE: /modules/music/admin/cat.php] [LINE: 26]
+[Sun, 22 Nov 2020 21:55:52 +0700] [localhost] [::1] [Notice(8): Undefined variable: id] [FILE: /modules/music/admin/del_song.php] [LINE: 23]
+[Sun, 22 Nov 2020 22:42:41 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function prepare() in C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php:42
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/del_song.php] [LINE: 42]
+[Sun, 22 Nov 2020 23:11:33 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function prepare() in C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php:26
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/music/admin/del_song.php] [LINE: 26]
+[Sun, 22 Nov 2020 23:15:44 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 1 in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:520
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(520): PDO->prepare('DELETE FROMnv4_...', Array)
+#1 C:\xampp\htdocs\nukeviet\modules\music\admin\del_song.php(26): NukeViet\Core\Database->prepare('DELETE FROMnv4_...')
+#2 C:\xampp\htdocs\nukeviet\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 520]

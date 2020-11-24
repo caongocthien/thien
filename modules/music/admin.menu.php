@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 07/30/2013 10:27
+ */
+
+if (! defined('NV_ADMIN')) {
+    die('Stop!!!');
+}
+
+$submenu['song-content'] = $lang_module['song_add'];
+$submenu['list-singer'] = $lang_module['singer_list'];
+$submenu['singer-content'] = $lang_module['singer_add'];
+$submenu['cat'] = $lang_module['cat_manager'];
+
